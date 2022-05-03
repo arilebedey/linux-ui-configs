@@ -72,6 +72,8 @@ static Key keys[] = {
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
 	{ MODKEY,                       XK_q,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_w,      focusstack,     {.i = -1 } },
+	{ MODKEY,                       XK_bracketleft,      focusstack,     {.i = +1 } },
+	{ MODKEY,                       XK_bracketright,      focusstack,     {.i = -1 } },
 	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
 	{ MODKEY,                       XK_u,      incnmaster,     {.i = -1 } },
 	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.0123} },
@@ -92,8 +94,8 @@ static Key keys[] = {
 	{ MODKEY,                       XK_slash,  view,           {0} },
 	{ MODKEY,                       XK_apostrophe, killclient, {0} },
 	{ MODKEY,                       XK_e,      killclient,     {0} },
-	{ MODKEY,                       XK_bracketright, tagmon,   {.i = -1 } },
-    { MODKEY,                       XK_bracketleft, tagmon,    {.i = +1 } },
+	//{ MODKEY,                       XK_bracketright, tagmon,   {.i = -1 } },
+    //{ MODKEY,                       XK_bracketleft, tagmon,    {.i = +1 } },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
