@@ -99,6 +99,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_slash,  view,           {0} },
 	{ MODKEY,                       XK_apostrophe, killclient, {0} },
 	{ MODKEY,                       XK_e,      killclient,     {0} },
+	{ MODKEY,                       XK_x,      togglesticky,   {0} },
 	//{ MODKEY,                       XK_bracketright, tagmon,   {.i = -1 } },
     //{ MODKEY,                       XK_bracketleft, tagmon,    {.i = +1 } },
 	TAGKEYS(                        XK_1,                      0)
